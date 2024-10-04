@@ -30,9 +30,10 @@ int main(){
     HANDLE_ERROR(cudaMemcpy(&c,dev_c,sizeof(int),cudaMemcpyDeviceToHost));
     /*
         可以通过cudaMemcpy拷贝device的内存
-        还有
-            cudaMemcpyDeviceToHost() 
-            cudaMemcpyDeviceToDevice()
+        选择有
+            cudaMemcpyHostToDevice
+            cudaMemcpyDeviceToHost
+            cudaMemcpyDeviceToDevice
         等等
     */
 
