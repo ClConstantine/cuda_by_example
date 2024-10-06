@@ -39,6 +39,11 @@ public:
         return waitKey(time);
     }
 
+    char save_image(string filename)
+    {
+        return imwrite(filename,image);
+    }
+
 };
 
 
