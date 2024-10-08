@@ -55,6 +55,7 @@ int main(){
         printf("Overlap: %s\n",prop.deviceOverlap?"Yes":"No");
         printf("multiprocessor count: %d\n",prop.multiProcessorCount);
         printf("maxThreadsPerBlock: %d\n",prop.maxThreadsPerBlock);
+        printf("compute capability: %d.%d\n",prop.major,prop.minor);
     }
 
     
