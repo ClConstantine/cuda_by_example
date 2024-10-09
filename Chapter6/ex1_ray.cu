@@ -138,7 +138,7 @@ int main(){
 
 	
 	bitmap.show_image();
-	// bitmap.save_image("ray.jpg");
+	// bitmap.save_image("ray.png");
 
 
 	cudaFree(dev_bitmap);
